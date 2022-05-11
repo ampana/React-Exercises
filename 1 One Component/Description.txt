@@ -1,0 +1,1 @@
+Creating a simple digital card for a cat. Everything is static. I created separate components for every part of the card. 
