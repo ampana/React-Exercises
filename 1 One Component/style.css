@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Thasadith:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body > #root {
+  font-family: "Inter", sans-serif;
+  width: 40%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e6e6e6;
+}
+
+.top-img {
+  width: 100%;
+}
+
+.div-naming {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 2.5vw;
+}
+
+.div-naming > h1,
+.div-naming > h2 {
+  margin: 2%;
+  font-weight: 2%;
+}
+
+button {
+  width: 50%;
+  height: 30%;
+
+  background: #efefef;
+  border: 1px solid #675953;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  padding: 5%;
+  border-radius: 10%;
+  margin: 0% 5%;
+  font-size: 1.5vw;
+}
+
+.buttonsDesc {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.texts {
+  font-size: 2vw;
+  margin: 0% 5%;
+  text-align: justify;
+}
+
+.texts > p {
+  margin: -5% 0%;
+  font-size: 1.5vw;
+  color: black;
+  font-weight: bold;
+}
+
+.descFooter {
+  padding: 10% 15%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d3d3d3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.descFooter > img {
+  width: 15%;
+  height: auto;
+  margin: 2%;
+}
